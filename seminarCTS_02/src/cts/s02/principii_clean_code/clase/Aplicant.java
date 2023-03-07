@@ -1,5 +1,7 @@
 package cts.s02.principii_clean_code.clase;
 
+import java.util.Scanner;
+
 public abstract class Aplicant{
 	protected String nume;
 	protected String prenume;
@@ -7,8 +9,18 @@ public abstract class Aplicant{
 	protected int punctaj;
 	protected int nrProiecte;
 	protected String[] denumiriProiecte;
-	
-	
+
+	protected static Integer pragAcceptat = 80;
+
+
+	public String[] getDenumiriProiecte() {
+		return denumiriProiecte;
+	}
+
+	public void setDenumiriProiecte(String[] denumiriProiecte) {
+		this.denumiriProiecte = denumiriProiecte;
+	}
+
 	public String getNume() {
 		return nume;
 	}
@@ -27,22 +39,17 @@ public abstract class Aplicant{
 	public void setVarsta(int varsta) {
 		this.varsta = varsta;
 	}
-	public void statut(){
-		if(punctaj>80)
-			System.out.println("Aplicantul "+nume+" "+prenume+" a fost acceptat.");
-		else
-			System.out.println("Aplicantul "+nume+" "+prenume+" nu a fost acceptat.");
-		}
+	public void afisareStatus(){
+		System.out.println("Aplicantul "+this.nume+" "+this.prenume+
+				(this.punctaj>Aplicant.pragAcceptat ? " " : " nu ") + "a fost acceptat.");
+	}
 	public int getPunctaj() {
 		return punctaj;
 	}
 	public void setPunctaj(int punctaj) {
 		this.punctaj = punctaj;
 	}
-	
-	
 
-	
 	public Aplicant() {
 		super();
 		// TODO Auto-generated constructor stub
@@ -62,5 +69,9 @@ public abstract class Aplicant{
 	public void setNrProiecte(int nrProiecte) {
 		this.nrProiecte = nrProiecte;
 	}
+
+	public abstract void afisareFinantare();
+
+
 
 }

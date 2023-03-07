@@ -4,7 +4,8 @@ import java.util.Arrays;
 
 public class Angajat extends Aplicant{
 	private String ocupatie;
-	private int salariu;
+	private Integer salariu;
+	private static Integer sumaFinantata;
 	
 	public String getOcupatie() {
 		return ocupatie;
@@ -12,12 +13,16 @@ public class Angajat extends Aplicant{
 	public void setOcupatie(String ocupatie) {
 		this.ocupatie = ocupatie;
 	}
-	public int getSalariu() {
+	public Integer getSalariu() {
 		return salariu;
 	}
-	public void setSalariu(int salariu) {
+	public void setSalariu(Integer salariu) {
 		this.salariu = salariu;
 	}
+
+	public static void setSumaFinantata(Integer sumaFinantata) { Angajat.sumaFinantata = sumaFinantata; }
+
+
 	public Angajat(String nume, String prenume, int varsta, int punctaj, int nr_proiecte, String[] denumire_Proiecte,int salariu,String ocupatie) {
 		super(nume,prenume,varsta,punctaj,nr_proiecte,denumire_Proiecte);
 		this.salariu = salariu;
@@ -37,11 +42,10 @@ public class Angajat extends Aplicant{
 	}
 	
 	
-	public int finantare() {
-		int s=10;
+	public void afisareFinantare() {
 		// TODO Auto-generated method stub
-		System.out.println("Angajatul "+getNume()+" "+getPrenume()+" primeste"+s+" Euro/zi in proiect.");
-		return s;
+		System.out.println("Angajatul " + super.getNume()+" " + super.getPrenume()+" primeste "+ Angajat.sumaFinantata +" Euro/zi in proiect.");
+
 	}
 	
 }
