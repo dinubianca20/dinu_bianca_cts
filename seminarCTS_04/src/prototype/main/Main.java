@@ -1,7 +1,7 @@
 package prototype.main;
 
-import prototype.Autobuz;
-import prototype.MijlocTransport;
+import prototype.model.Autobuz;
+import prototype.model.MijlocTransport;
 
 public class Main {
     public static void main(String[] args) {
