@@ -4,13 +4,13 @@ public interface IBuilder {
 
     public Pacient build();
 
-    public IBuilder setNume(String nume);
+    IBuilder setNume(String nume);
 
-    public IBuilder setHasPatRabatabil(boolean hasPatRabatabil);
+    IBuilder setHasPatRabatabil(boolean hasPatRabatabil);
 
-    public IBuilder setHasMicDejun(boolean hasMicDejun);
+    IBuilder setHasMicDejun(boolean hasMicDejun);
 
-    public IBuilder setHasPapuciCamera(boolean hasPapuciCamera);
+    IBuilder setHasPapuciCamera(boolean hasPapuciCamera);
 
-    public IBuilder setHasHalatPentruInterior(boolean hasHalatPentruInterior);
+    IBuilder setHasHalatPentruInterior(boolean hasHalatPentruInterior);
 }
