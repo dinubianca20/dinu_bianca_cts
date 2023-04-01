@@ -12,7 +12,7 @@ public class Asistent implements PersonalSpital{
     }
 
     @Override
-    public void desciere() {
+    public void descriere() {
         System.out.println("Numele asistentului este " + this.getNume());
     }
 }

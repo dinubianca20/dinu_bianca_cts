@@ -23,8 +23,9 @@ public class Main {
         listaPersonal.add(factoryPersonal.createObject(TipPersonalSpital.ASISTENT, "Sorin"));
 
         listaPersonal.add(factoryPersonal.createObject(TipPersonalSpital.ANESTEZIST, "Gabi", 10));
+
         for(PersonalSpital p : listaPersonal) {
-            p.desciere();
+            p.descriere();
         }
 
 

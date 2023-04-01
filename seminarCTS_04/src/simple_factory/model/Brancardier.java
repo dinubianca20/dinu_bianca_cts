@@ -13,7 +13,7 @@ public class Brancardier implements PersonalSpital {
     }
 
     @Override
-    public void desciere() {
+    public void descriere() {
         System.out.println("Numele brancardierului este " + this.getNume());
     }
 }

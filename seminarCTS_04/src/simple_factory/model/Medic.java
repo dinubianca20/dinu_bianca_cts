@@ -13,7 +13,7 @@ public class Medic implements PersonalSpital {
     }
 
     @Override
-    public void desciere() {
+    public void descriere() {
         System.out.println("Numele medicului este " + this.getNume());
     }
 }

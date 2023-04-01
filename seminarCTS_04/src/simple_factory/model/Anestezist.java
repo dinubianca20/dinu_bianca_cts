@@ -11,7 +11,7 @@ public class Anestezist implements PersonalSpital{
     }
 
     @Override
-    public void desciere() {
+    public void descriere() {
         System.out.println("Numele anestezistului " + this.nume + " are " + this.numarPacienti + " pacienti.");
     }
 }
