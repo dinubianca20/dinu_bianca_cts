@@ -1,7 +1,6 @@
 package builder.model;
 
 public class BuilderPacient implements IBuilder {
-
     Pacient pacient;
 
     public BuilderPacient(String nume) {
