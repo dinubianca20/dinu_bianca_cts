@@ -2,6 +2,8 @@ package singleton_registry.main;
 
 import singleton_registry.model.DomeniuInternet;
 
+import java.util.Map;
+
 public class MainRegistry {
     public static void main(String[] args) {
 
@@ -12,6 +14,12 @@ public class MainRegistry {
         domeniuInternet1.setAnInregistrare(2021);
         domeniuInternet2.setAnInregistrare(2019);
         domeniuInternet3.setAnInregistrare(2020);
+
+        Map<String,DomeniuInternet> map=DomeniuInternet.getDomeniiInternet();
+
+        for(Map.Entry<String,DomeniuInternet> entry: map.entrySet()){
+            System.out.println(entry.getKey()+"  "+entry.getValue());
+        }
 
         System.out.println(domeniuInternet1.toString());
         System.out.println(domeniuInternet2.toString());

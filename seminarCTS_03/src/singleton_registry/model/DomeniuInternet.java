@@ -29,6 +29,10 @@ public class DomeniuInternet {
         this.anInregistrare = anInregistrare;
     }
 
+    public static Map<String, DomeniuInternet> getDomeniiInternet() {
+        return domeniiInternet;
+    }
+
     @Override
     public String toString() {
         return "DomeniuInternet {" +

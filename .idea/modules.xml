@@ -3,11 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Seminar.iml" filepath="$PROJECT_DIR$/.idea/Seminar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/probleme_design_patterns/probleme_design_patterns.iml" filepath="$PROJECT_DIR$/probleme_design_patterns/probleme_design_patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminarCTS_01/seminarCTS_01.iml" filepath="$PROJECT_DIR$/seminarCTS_01/seminarCTS_01.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminarCTS_02/seminarCTS_02.iml" filepath="$PROJECT_DIR$/seminarCTS_02/seminarCTS_02.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminarCTS_03/seminarCTS_03.iml" filepath="$PROJECT_DIR$/seminarCTS_03/seminarCTS_03.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminarCTS_04/seminarCTS_04.iml" filepath="$PROJECT_DIR$/seminarCTS_04/seminarCTS_04.iml" />
       <module fileurl="file://$PROJECT_DIR$/seminarCTS_05/seminarCTS_05.iml" filepath="$PROJECT_DIR$/seminarCTS_05/seminarCTS_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/seminarCTS_06/seminarCTS_06.iml" filepath="$PROJECT_DIR$/seminarCTS_06/seminarCTS_06.iml" />
     </modules>
   </component>
 </project>
