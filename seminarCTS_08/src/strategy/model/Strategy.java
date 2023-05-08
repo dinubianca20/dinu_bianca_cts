@@ -1,6 +1,6 @@
 package strategy.model;
 
 
-public class Strategy {
-    //void modVerificareSpectator(Spectator spectator);
+public interface Strategy {
+    void verificaSpectator(Spectator s);
 }
