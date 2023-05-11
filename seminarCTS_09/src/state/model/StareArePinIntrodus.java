@@ -3,7 +3,7 @@ package state.model;
 public class StareArePinIntrodus implements IStare{
     @Override
     public void modificaStare(Bancomat bancomat) {
-        if(bancomat.getStare() instanceof  StareAreCard) {
+        if(bancomat.getStare() instanceof StareAreCard) {
             bancomat.setStare(this);
             System.out.println("A fost introdus PIN-ul!");
 
