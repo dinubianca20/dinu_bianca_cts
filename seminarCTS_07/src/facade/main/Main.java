@@ -12,8 +12,9 @@ public class Main {
 //		 autobuz.deschideUsaMijloc();
 //		 autobuz.deschideUsaSpate();
 		 
-		 AutobuzSimplificat autobuzSimplificat=new AutobuzSimplificat(autobuz);
+		 AutobuzSimplificat autobuzSimplificat = new AutobuzSimplificat(autobuz);
 		 autobuzSimplificat.deschideUsile();
+		 autobuzSimplificat.ramanDeschise();
 	}
 
 }

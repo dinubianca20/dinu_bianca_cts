@@ -11,4 +11,12 @@ public class PozitieDesenare {
         this.culoareTricou = culoareTricou;
     }
 
+    @Override
+    public String toString() {
+        return "PozitieDesenare{" +
+                "rand=" + rand +
+                ", loc=" + loc +
+                ", culoareTricou='" + culoareTricou + '\'' +
+                '}';
+    }
 }

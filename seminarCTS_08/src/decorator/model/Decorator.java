@@ -15,8 +15,8 @@ public abstract class Decorator implements IBilet {
     }
 
     @Override
-    public String getNumeEchipa1() {
-        return bilet.getNumeEchipa1();
+    public String getEchipaLocala() {
+        return bilet.getEchipaLocala();
     }
 
     public IBilet getBilet() {

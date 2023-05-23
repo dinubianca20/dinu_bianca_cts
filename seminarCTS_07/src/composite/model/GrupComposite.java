@@ -7,9 +7,7 @@ public class GrupComposite implements Element {
 
 	private List<Element> elemente;
 	private String denumireGrup;
-	
-	
-	
+
 	public GrupComposite(String denumireGrup) {
 		super();
 		elemente=new ArrayList<Element>();

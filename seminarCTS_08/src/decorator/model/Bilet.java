@@ -2,15 +2,14 @@ package decorator.model;
 
 public class Bilet implements IBilet{
     private String numeCumparator;
-    private String numeEchipa1;
-    private
-    String numeEchipa2;
+    private String echipaLocala;
+    private String echipaRivala;
 
-    public Bilet(String numeCumparator, String numeEchipa1, String numeEchipa2) {
+    public Bilet(String numeCumparator, String echipaLocala, String echipaRivala) {
         super();
         this.numeCumparator = numeCumparator;
-        this.numeEchipa1 = numeEchipa1;
-        this.numeEchipa2 = numeEchipa2;
+        this.echipaLocala = echipaLocala;
+        this.echipaRivala = echipaRivala;
     }
 
     @Override
@@ -22,12 +21,12 @@ public class Bilet implements IBilet{
     public String toString() {
         return "Bilet{" +
                 "numeCumparator='" + numeCumparator + '\'' +
-                ", numeEchipa1='" + numeEchipa1 + '\'' +
-                ", numeEchipa2='" + numeEchipa2 + '\'' +
+                ", numeEchipa1='" + echipaLocala + '\'' +
+                ", numeEchipa2='" + echipaRivala + '\'' +
                 '}';
     }
 
-    public String getNumeEchipa1() {
-        return numeEchipa1;
+    public String getEchipaLocala() {
+        return echipaLocala;
     }
 }

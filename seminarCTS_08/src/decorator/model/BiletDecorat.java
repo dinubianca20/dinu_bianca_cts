@@ -7,7 +7,7 @@ public class BiletDecorat extends Decorator {
 
     @Override
     public void printareMesajSustinere() {
-        System.out.println("Sustinem echipa " + super.getBilet().getNumeEchipa1());
+        System.out.println("Sustinem echipa " + super.getBilet().getEchipaLocala());
     }
 
 

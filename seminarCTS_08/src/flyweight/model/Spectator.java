@@ -14,7 +14,7 @@ public class Spectator implements ISpectator {
 
     @Override
     public void deseneazaSpectator(PozitieDesenare pd) {
-        System.out.println(this.toString()+pd);
+        System.out.println(this.toString()+pd.toString());
     }
 
     @Override

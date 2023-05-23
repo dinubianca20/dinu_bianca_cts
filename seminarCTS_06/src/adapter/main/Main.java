@@ -15,10 +15,10 @@ public class Main {
 
     public static void main(String[] args) {
         ISoftBar bar = new SoftBar("Interbelic");
-//        bar.printeazaNotaBauturi(240);
+        bar.printeazaNotaBauturi(240);
 
         ISoftRestaurant bucatarie = new Restaurant("George");
-//        bucatarie.printeazaNota(300);
+        bucatarie.printeazaNota(300);
 //        Main.imprimare(bar, 300);
         Main.imprimare(bucatarie, 500);
 
